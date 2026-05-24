@@ -19,7 +19,7 @@ const cars = [
     model: "Scorpio N",
     year: 2023,
     pricePerDay: 120,
-    image: "/src/assets/car/scorpio.png",
+    image: "/assets/scorpio.png",
     available: true,
     description: "Powerful SUV with excellent off-road capabilities. Perfect for adventure trips and family outings.",
     features: ["4x4", "Diesel Engine", "7 Seater", "Climate Control", "Touchscreen Infotainment"]
@@ -30,7 +30,7 @@ const cars = [
     model: "X5",
     year: 2023,
     pricePerDay: 200,
-    image: "/src/assets/car/bmw.jpg",
+    image: "/assets/bmw.jpg",
     available: true,
     description: "Luxury SUV with premium features and powerful performance. Ideal for business and luxury travel.",
     features: ["xDrive AWD", "TwinPower Turbo", "5 Seater", "Panoramic Sunroof", "Premium Sound System"]
@@ -41,7 +41,7 @@ const cars = [
     model: "GLC",
     year: 2023,
     pricePerDay: 180,
-    image: "/src/assets/car/mercedes.png",
+    image: "/assets/mercedes.png",
     available: true,
     description: "Elegant luxury SUV with sophisticated design and advanced technology features.",
     features: ["4MATIC AWD", "Turbo Engine", "5 Seater", "MBUX System", "Ambient Lighting"]
@@ -52,7 +52,7 @@ const cars = [
     model: "Nexon",
     year: 2023,
     pricePerDay: 80,
-    image: "/src/assets/car/tatanexon.jpg",
+    image: "/assets/tatanexon.jpg",
     available: true,
     description: "Electric SUV with impressive range and modern features. Eco-friendly and cost-effective.",
     features: ["Electric Motor", "Long Range", "5 Seater", "Connected Car Tech", "Fast Charging"]
@@ -63,7 +63,7 @@ const cars = [
     model: "Harrier",
     year: 2023,
     pricePerDay: 100,
-    image: "/src/assets/car/jeep.png",
+    image: "/assets/jeep.png",
     available: true,
     description: "Premium SUV with bold design and advanced safety features. Perfect for urban and highway driving.",
     features: ["Kryotec Engine", "5 Seater", "Advanced Safety", "Infotainment System", "Climate Control"]
@@ -74,7 +74,7 @@ const cars = [
     model: "3 Series",
     year: 2023,
     pricePerDay: 150,
-    image: "/src/assets/car/tatanexon.jpg",
+    image: "/assets/tatanexon.jpg",
     available: true,
     description: "Sporty luxury sedan with dynamic performance and premium interior. Perfect for business and pleasure.",
     features: ["TwinPower Turbo", "RWD/AWD", "5 Seater", "iDrive System", "Sport Seats"]
@@ -85,7 +85,7 @@ const cars = [
     model: "C-Class",
     year: 2023,
     pricePerDay: 160,
-    image: "/src/assets/car/mercedes.png",
+    image: "/assets/mercedes.png",
     available: true,
     description: "Elegant luxury sedan with sophisticated design and cutting-edge technology.",
     features: ["Turbo Engine", "9G-TRONIC", "5 Seater", "MBUX System", "Premium Interior"]
@@ -96,7 +96,7 @@ const cars = [
     model: "Punch",
     year: 2023,
     pricePerDay: 60,
-    image: "/src/assets/car/tatanexon.jpg",
+    image: "/assets/tatanexon.jpg",
     available: true,
     description: "Compact SUV with modern design and practical features. Great for city driving and small families.",
     features: ["Revotron Engine", "5 Seater", "iRA Connected Car", "Safety Features", "Compact Design"]
