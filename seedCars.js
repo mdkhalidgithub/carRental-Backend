@@ -1,6 +1,14 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import dns from 'dns';
 import Car from './src/models/Car.js';
+
+// Fallback to Google DNS to bypass local network SRV resolution issues
+try {
+  dns.setServers(['8.8.8.8', '8.8.4.4']);
+} catch (dnsErr) {
+  console.warn('Could not set custom DNS servers:', dnsErr.message);
+}
 
 dotenv.config();
 
@@ -126,3 +134,5 @@ export const seedCars = async () => {
     console.log('Disconnected from MongoDB');
   }
 };
+
+seedCars();
